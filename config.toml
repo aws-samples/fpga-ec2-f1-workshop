@@ -1,0 +1,48 @@
+baseURL="https://master.d1r1ks6tt56717.amplifyapp.com/"
+relativeURLs=true
+canonifyURLs=true
+languageCode = "en-US"
+defaultContentLanguage = "en"
+
+title = "FPGA workshop with Amazon EC2 F1"
+theme = "learn"
+metaDataFormat = "yaml"
+defaultContentLanguageInSubdir= true
+
+uglyurls = true
+sectionPagesMenu = "main"
+pygmentsCodeFences = true
+pygmentsStyle = "monokai"
+
+[params]
+  description = "FPGA workshop with Amazon EC2 F1"
+  author = "Henry Bravo"
+  disableBreadcrumb = false
+  disableNextPrev = false
+  themeVariant = "aws"
+  disableSearch = false
+  disableAssetsBusting = false
+  disableLanguageSwitchingButton = true
+  disableShortcutsTitle = false
+  disableInlineCopyToClipBoard = false
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+page = [ "HTML"]
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[Languages]
+  [Languages.en]
+    title = "FPGA workshop with Amazon EC2 F1"
+    weight = 1
+    languageName = "English"
+
+  [Languages.fr]
+    title = "FPGA atelier avec Amazon EC2 F1"
+    weight = 2
+    languageName = "Français"

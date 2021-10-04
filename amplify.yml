@@ -1,0 +1,23 @@
+version: 1.0
+env:
+  variables:
+    HUGOVERSION: v0.74.3
+    HUGOINSTALL: hugo_0.74.3_Linux-64bit.tar.gz
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - wget https://github.com/gohugoio/hugo/releases/download/$HUGOVERSION/$HUGOINSTALL
+        - tar -zxf $HUGOINSTALL
+        - mv hugo /usr/bin/hugo
+        - rm -rf $HUGOINSTALL
+        - hugo version
+    build:
+      commands:
+        - hugo
+  artifacts:
+    baseDirectory: public
+    files:
+      - '**/*'
+  cache:
+    paths: []
