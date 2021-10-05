@@ -1,4 +1,4 @@
-baseURL="https://fpga-ec2-f1.workshop.aws/"
+baseURL="https://fpga-development-on-ec2.workshop.aws/"
 relativeURLs=true
 canonifyURLs=true
 languageCode = "en-US"
