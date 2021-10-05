@@ -9,7 +9,7 @@ theme = "learn"
 metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= true
 
-uglyurls = true
+uglyurls = false
 sectionPagesMenu = "main"
 pygmentsCodeFences = true
 pygmentsStyle = "monokai"
@@ -26,8 +26,22 @@ pygmentsStyle = "monokai"
   disableShortcutsTitle = false
   disableInlineCopyToClipBoard = false
 
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = false
+    disable = true
+    respectDoNotTrack = false
+    useSessionStorage = false
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = true
+
+[services]
+  [services.youtube]
+    privacyEnhanced = true
+
 [outputs]
-home = [ "HTML", "RSS", "JSON"]
+home = [ "HTML", "JSON"]
 page = [ "HTML"]
 
 [markup]
