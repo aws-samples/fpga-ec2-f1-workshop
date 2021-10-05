@@ -1,6 +1,6 @@
 # fpga-development-on-ec2-f1
 
-This is the source repo for the [FPGA with EC2 F1 workshop](https://fpga-development-on-ec2-f1.workshop.aws/)
+This is the source repository for the [FPGA development workshop with Amazon EC2 F1](https://fpga-development-on-ec2-f1.workshop.aws/)
 
 ![AWS Workshop](fpga-f1-workshop.png)
 

@@ -1,10 +1,10 @@
-baseURL="https://master.d1r1ks6tt56717.amplifyapp.com/"
+baseURL="https://fpga-ec2-f1.workshop.aws/"
 relativeURLs=true
 canonifyURLs=true
 languageCode = "en-US"
 defaultContentLanguage = "en"
 
-title = "FPGA workshop with Amazon EC2 F1"
+title = "FPGA development workshop with Amazon EC2 F1"
 theme = "learn"
 metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= true
@@ -15,7 +15,7 @@ pygmentsCodeFences = true
 pygmentsStyle = "monokai"
 
 [params]
-  description = "FPGA workshop with Amazon EC2 F1"
+  description = "FPGA development workshop with Amazon EC2 F1"
   author = "Henry Bravo"
   disableBreadcrumb = false
   disableNextPrev = false

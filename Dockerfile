@@ -7,6 +7,5 @@ RUN wget https://github.com/gohugoio/hugo/releases/download/v0.74.3/hugo_0.74.3_
     && mkdir /www
 WORKDIR /www
 RUN git clone https://github.com/matcornic/hugo-theme-learn/ themes/learn
-#COPY . /www/
 ENTRYPOINT ["hugo", "server", "--bind", "0.0.0.0", "--port", "8080"]
 CMD [""]
